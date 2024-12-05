@@ -1,0 +1,52 @@
+@import '../../../../styles/variables';
+
+.testimonials {
+  padding: $spacing-xl 0;
+  background: $light-bg;
+
+  h2 {
+    text-align: center;
+    margin-bottom: $spacing-xl;
+    color: $primary-color;
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: $spacing-lg;
+  }
+
+  .testimonial-card {
+    background: white;
+    padding: $spacing-lg;
+    border-radius: $border-radius-lg;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    .rating {
+      margin-bottom: $spacing-md;
+      
+      i {
+        color: gold;
+        margin-right: 2px;
+      }
+    }
+
+    .comment {
+      color: $text-color;
+      margin-bottom: $spacing-lg;
+      font-style: italic;
+      line-height: 1.6;
+    }
+
+    .author {
+      h4 {
+        color: $primary-color;
+        margin-bottom: $spacing-xs;
+      }
+
+      p {
+        color: $text-color-light;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<div class="location-card" [style.backgroundImage]="'url(' + location.image + ')'">
+  <div class="location-content">
+    <h3>{{location.name}}</h3>
+    <p>{{location.description}}</p>
+    <a [routerLink]="['/locations']" [queryParams]="{city: location.name.toLowerCase()}" class="btn btn-primary">
+      Explore Location
+    </a>
+  </div>
+</div>

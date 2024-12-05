@@ -1,0 +1,52 @@
+<div class="home-container">
+  <app-hero></app-hero>
+
+  <section class="featured-locations">
+    <div class="container">
+      <h2>Our Premium Locations</h2>
+      <div class="locations-grid">
+        <app-location-card
+          *ngFor="let location of locations"
+          [location]="location">
+        </app-location-card>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-cars">
+    <div class="container">
+      <h2>Featured Vehicles</h2>
+      <div class="cars-grid">
+        <app-car-card
+          *ngFor="let car of featuredCars"
+          [car]="car">
+        </app-car-card>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-overview">
+    <div class="container">
+      <h2>Premium Services</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <i class="fas fa-concierge-bell"></i>
+          <h3>24/7 Concierge</h3>
+          <p>Personal assistance throughout your journey</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-map-marked-alt"></i>
+          <h3>Door-to-Door Delivery</h3>
+          <p>Convenient pickup and drop-off at your location</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Full Insurance</h3>
+          <p>Comprehensive coverage for peace of mind</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <app-testimonials></app-testimonials>
+</div>

@@ -1,0 +1,10 @@
+<app-hero></app-hero>
+<div class="fleet-container">
+  
+  <div class="container">
+    <h1>Our Luxury Fleet</h1>
+    <div class="cars-grid">
+      <app-car-card *ngFor="let car of cars$ | async" [car]="car"></app-car-card>
+    </div>
+  </div>
+</div>

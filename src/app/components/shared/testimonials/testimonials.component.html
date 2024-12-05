@@ -1,0 +1,17 @@
+<section class="testimonials">
+  <div class="container">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card" *ngFor="let testimonial of testimonials">
+        <div class="rating">
+          <i class="fas fa-star" *ngFor="let star of [].constructor(testimonial.rating)"></i>
+        </div>
+        <p class="comment">{{testimonial.comment}}</p>
+        <div class="author">
+          <h4>{{testimonial.name}}</h4>
+          <p>{{testimonial.location}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

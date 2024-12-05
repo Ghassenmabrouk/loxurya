@@ -1,0 +1,67 @@
+@import '../../../styles/variables';
+
+.booking-container {
+  padding: $spacing-xl 0;
+
+  h1 {
+    text-align: center;
+    margin-bottom: $spacing-xl;
+    color: $primary-color;
+  }
+
+  .booking-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: $spacing-lg;
+    background: white;
+    border-radius: $border-radius-lg;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: $spacing-md;
+      margin-bottom: $spacing-lg;
+
+      @media (max-width: $mobile) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-group {
+      margin-bottom: $spacing-md;
+
+      label {
+        display: block;
+        margin-bottom: $spacing-sm;
+        color: $text-color;
+        font-weight: 500;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: $spacing-sm;
+        border: 1px solid $border-color;
+        border-radius: $border-radius-sm;
+        font-size: 1rem;
+
+        &:focus {
+          outline: none;
+          border-color: $accent-color;
+        }
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: $spacing-md;
+      font-size: 1.1rem;
+
+      &:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

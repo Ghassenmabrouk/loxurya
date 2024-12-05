@@ -1,0 +1,19 @@
+<app-hero></app-hero>
+<div class="locations-container">
+  <div class="container">
+    <h1>Our Locations</h1>
+    <div class="locations-grid">
+      <div class="location-card" *ngFor="let location of locations">
+        <img [src]="location.image" [alt]="location.name">
+        <div class="location-info">
+          <h2>{{location.name}}</h2>
+          <p>{{location.description}}</p>
+          <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> {{location.address}}</p>
+            <p><i class="fas fa-phone"></i> {{location.phone}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
