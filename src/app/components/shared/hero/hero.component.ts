@@ -10,10 +10,10 @@ import { Subscription } from 'rxjs';
 })
 export class HeroComponent implements OnInit, OnDestroy {
   backgroundImages: string[] = [
-    'assets/images/hero1.jpg',
-    'assets/images/hero2.jpg',
-    'assets/images/hero3.jpg',
-    'assets/images/hero4.jpg'
+    'assets/images/pexels-njeromin-15473279.jpg',
+    'assets/images/pexels-resul-muslu-1241786177-27848592.jpg',
+    'assets/images/pexels-netlenka-18647718-28545869.jpg',
+    'assets/images/pexels-karlmphotography-8568542.jpg'
   ];
 
   currentImageIndex = 0;
