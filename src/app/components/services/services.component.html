@@ -1,13 +1,22 @@
+
 <app-hero></app-hero>
-<div class="services-container">
+<section class="services-section">
   <div class="container">
     <h1>Our Premium Services</h1>
     <div class="services-grid">
-      <div class="service-card" *ngFor="let service of services">
-        <i [class]="service.icon"></i>
-        <h3>{{service.title}}</h3>
-        <p>{{service.description}}</p>
+      <div 
+        class="service-card" 
+        *ngFor="let service of services" 
+        (click)="showServiceDetails(service)"
+      >
+        <div class="service-icon">
+          <i [class]="service.icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>{{service.title}}</h3>
+          <p>{{service.description}}</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
