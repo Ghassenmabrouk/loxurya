@@ -2,12 +2,28 @@
   <div class="overlay"></div>
   <div class="container">
     <div class="hero-content">
-      <h1>Loxurya The Bespoke Excelence</h1>
-      <p>Premium service with exceptional standards</p>
+      <h1>{{title}}</h1>
+      <p>{{description}}</p>
       <div class="hero-buttons">
-        <a routerLink="/services" class="btn btn-primary">View Our Services</a>
+        <a routerLink="/services" class="btn btn-primary" *ngIf="currentPage !== 'services'">View Our Services</a>
         <a routerLink="/booking" class="btn btn-secondary">Book Now</a>
       </div>
     </div>
+  </div>
+  <div class="hero-navigation">
+    <button class="nav-arrow prev" (click)="previousImage()">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <div class="nav-dots">
+      <button 
+        *ngFor="let image of backgroundImages; let i = index" 
+        class="nav-dot" 
+        [class.active]="i === currentImageIndex"
+        (click)="selectImage(i)">
+      </button>
+    </div>
+    <button class="nav-arrow next" (click)="nextImage()">
+      <i class="fas fa-chevron-right"></i>
+    </button>
   </div>
 </div>
