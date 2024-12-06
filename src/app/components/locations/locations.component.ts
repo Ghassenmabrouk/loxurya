@@ -50,13 +50,13 @@ export class LocationsComponent {
       address: 'Brno, Czech Republic'
     },
     {
-      name: 'Lubijana',
+      name: 'Ljubljana',
       image: 'assets/images/locations/tunisia.jpg',
       description: 'A blend of modern elegance and historic charm',
       address: 'Ljubljana, Slovenia'
     },
     {
-      name: 'Prag',
+      name: 'Prague',
       image: 'assets/images/locations/tunisia.jpg',
       description: 'Luxury amidst the fairytale architecture of Prague',
       address: 'Prague, Czech Republic'
