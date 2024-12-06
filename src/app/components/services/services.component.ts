@@ -14,18 +14,39 @@ export class ServicesComponent {
     },
     {
       icon: 'fas fa-map-marked-alt',
-      title: 'Door-to-Door Delivery',
-      description: 'Vehicle delivery and pickup at your preferred location'
+      title: 'Transfert & Provision',
+      description: 'Transfert and pickup at your preferred location'
     },
     {
-      icon: 'fas fa-shield-alt',
-      title: 'Full Insurance',
-      description: 'Comprehensive coverage for worry-free travel'
+      icon: 'fas fa-tasks',
+      title: 'Full Organization of Your Stay & Events',
+     description: 'Seamless arrangements for every travel detail'
+
     },
     {
-      icon: 'fas fa-user-tie',
-      title: 'Professional Chauffeur',
-      description: 'Experienced drivers at your service'
-    }
+      icon: 'fas fa-car-side', // Updated to symbolize a professional welcome
+title: 'Professional Welcome In Your Luxury Limousine',
+description: 'Enjoy a warm, courteous reception and impeccable service as you step into your elegant ride.'
+
+    },
+    {
+      icon: 'fas fa-shield-alt', 
+title: 'Unmatched Security & Absolute Discretion',
+description: 'Experience unparalleled safety and confidentiality, ensuring every journey is private and secure.'
+
+
+    },
+    {
+      icon: 'fas fa-hotel', 
+title: 'Hotels & Residences',
+description: 'Experience unparalleled safety and confidentiality, ensuring every journey is private and secure.'
+
+
+    },
+    {
+      icon: 'fas fa-utensils', // Symbolizing restaurants and dining
+title: 'Restaurants & Lounge',
+description: 'Indulge in exquisite dining and relaxing lounges, offering a blend of culinary delights and refined ambiance.'
+    },
   ];
 }
