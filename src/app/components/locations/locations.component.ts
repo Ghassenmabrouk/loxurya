@@ -10,84 +10,62 @@ export class LocationsComponent {
     {
       name: 'Bratislava',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Slovakia',
-      address: 'Bratislava, Slovakia',
-      phone: '+216 XX XXX XXX'
+      description: 'Discover elegance and charm in the capital of Slovakia',
+      address: 'Bratislava, Slovakia'
     },
     {
-      name: 'Salzburg ',
+      name: 'Salzburg',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
+      description: 'Immerse yourself in the cultural wonders of Austria',
+      address: 'Salzburg, Austria'
     },
-      {
+    {
       name: 'München',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
+      description: 'Indulge in luxury in the heart of Bavaria',
+      address: 'München, Germany'
     },
-
-  {
-      name: 'Innsbruck ',
+    {
+      name: 'Innsbruck',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
+      description: 'Enjoy breathtaking alpine views and premium services',
+      address: 'Innsbruck, Austria'
     },
-
-
-      {
+    {
       name: 'Bregenz',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
+      description: 'A serene retreat on the shores of Lake Constance',
+      address: 'Bregenz, Austria'
     },
-
-
-      {
-      name: 'Budapest ',
+    {
+      name: 'Budapest',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
+      description: 'Explore luxury in the vibrant capital of Hungary',
+      address: 'Budapest, Hungary'
     },
-     {
-      name: 'Brno  ',
+    {
+      name: 'Brno',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
+      description: 'Enjoy sophistication in the Czech Republic’s second city',
+      address: 'Brno, Czech Republic'
     },
-     {
-      name: 'Budapest ',
+    {
+      name: 'Lubijana',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
+      description: 'A blend of modern elegance and historic charm',
+      address: 'Ljubljana, Slovenia'
     },
-     {
-      name: 'Lubijana ',
+    {
+      name: 'Prag',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
-    },
-     {
-      name: 'Prag ',
-      image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Germany',
-      address: 'menchen, Germany',
-      phone: '+216 XX XXX XXX'
+      description: 'Luxury amidst the fairytale architecture of Prague',
+      address: 'Prague, Czech Republic'
     },
     {
       name: 'Vienna',
       image: 'assets/images/locations/vienna.jpg',
-      description: 'Premium service in the cultural capital',
-      address: 'Vienna, Austria',
-      phone: '+43 XX XXX XXXX'
+      description: 'Premium services in Austria’s cultural capital',
+      address: 'Vienna, Austria'
     }
   ];
 }
