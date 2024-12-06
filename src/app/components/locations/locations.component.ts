@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class LocationsComponent {
   locations = [
     {
-      name: 'Tunisia',
+      name: 'Bratislava',
       image: 'assets/images/locations/tunisia.jpg',
-      description: 'Experience luxury in the heart of Tunisia',
-      address: 'Tunis, Tunisia',
+      description: 'Experience luxury in the heart of Slovakia',
+      address: 'Bratislava, Slovakia',
       phone: '+216 XX XXX XXX'
     },
     {
