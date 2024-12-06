@@ -135,7 +135,7 @@ export class ServicesComponent {
           'Multilingual support',
           'Priority access to exclusive events and venues'
         ],
-        image: 'assets/images/services/hand.jpg'
+        image: 'assets/images/hand.jpg'
       }
     },
     {
@@ -151,7 +151,7 @@ export class ServicesComponent {
           'Real-time flight monitoring',
           'Customized route planning'
         ],
-        image: 'assets/images/services/choffeur.jpg'
+        image: 'assets/images/choffeur.jpg'
       }
     },
     {
