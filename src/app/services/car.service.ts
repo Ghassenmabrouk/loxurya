@@ -28,9 +28,18 @@ export class CarService {
     },
     {
       id: 2,
-      name: 'Bentley Continental GT',
-      category: 'Sport Luxury',
-      price: 900,
+      name: 'Bentley Flying Spurt',
+      category: 'Luxury',
+      price: 1100,
+      image: 'assets/images/cars/bentley-continental.jpg',
+      description: 'The perfect blend of luxury and performance',
+      features: ['Sport mode', 'Premium audio', 'Heated seats', 'GPS navigation']
+    },
+    {
+      id: 2,
+      name: 'Mercedes-Maybach Classe S',
+      category: 'Luxury',
+      price: 1000,
       image: 'assets/images/cars/bentley-continental.jpg',
       description: 'The perfect blend of luxury and performance',
       features: ['Sport mode', 'Premium audio', 'Heated seats', 'GPS navigation']
